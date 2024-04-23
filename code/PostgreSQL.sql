@@ -7,9 +7,9 @@ SELECT COUNT(DISTINCT imo) AS Ship_Count
 /* 
 2.2.2) ULCV - Ultra Large Container Vessel
 	   According to Wikipedia an ULCV needs to meet the following requirements:
-																			   	- Capacity(TEU): 14,501 and higher
-																				- Length(m): 366 and longer
-																				- Width(m): 49 and wider
+										    - Capacity(TEU): 14,501 and higher
+										    - Length(m): 366 and longer
+										    - Width(m): 49 and wider
 	   1 TEU = 10 tons therefore I will classify a ship as ULCV with the following where clauses.
 */
 SELECT COUNT(*) AS ULCV_Count 
